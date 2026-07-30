@@ -1,8 +1,28 @@
 aid: mirai
 name: Mirai
-description: Mirai is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mirai (trymirai.com) is an on-device AI infrastructure company building uzu, a
+  high-performance, Rust-based inference engine that runs large language,
+  text-to-speech, and classification models directly on consumer hardware —
+  Apple Silicon, iOS, macOS, and beyond — with zero inference cost and full data
+  privacy. The uzu SDK exposes a single high-level API across Python, Swift,
+  TypeScript, and Rust, adding speculative decoding, structured output, and
+  built-in performance metrics, plus an optional cloud path for hosted models.
+  Founded by the co-creators of Reface and Prisma and backed by a $10M seed
+  round led by Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/mirai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://trymirai.com/images/og/default.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,73 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Artificial Intelligence
+- On-Device AI
+- Inference
+- LLM
+- SDK
+- Machine Learning
+- Edge AI
+- Apple Silicon
+- Text to Speech
+apis:
+- name: Mirai uzu Inference SDK
+  description: >-
+    uzu is Mirai's first-party, high-performance on-device inference engine. A
+    single high-level API — shared across Python, Swift, TypeScript, and Rust —
+    downloads and runs LLM, text-to-speech, and classification models locally,
+    with speculative decoding, structured output, and an optional cloud path.
+  humanURL: https://docs.trymirai.com
+  tags:
+  - On-Device AI
+  - Inference
+  - SDK
+  properties:
+  - type: Documentation
+    url: https://docs.trymirai.com
+  - type: GettingStarted
+    url: https://docs.trymirai.com/quick-start/chat
+  - type: Packages
+    url: packages/mirai-packages.yml
+  - type: SDKs
+    url: packages/mirai-packages.yml
+  - type: LLMsTxt
+    url: llms/mirai-llms.txt
+  - type: SourceCode
+    url: https://github.com/trymirai/uzu
+common:
+- type: DomainSecurity
+  url: security/mirai-domain-security.yml
+- type: Website
+  url: https://trymirai.com
+- type: DeveloperPortal
+  url: https://platform.trymirai.com
+- type: Documentation
+  url: https://docs.trymirai.com
+- type: GettingStarted
+  url: https://docs.trymirai.com/quick-start/chat
+- type: SignUp
+  url: https://platform.trymirai.com
+- type: GitHubOrganization
+  url: https://github.com/trymirai
+- type: Blog
+  url: https://trymirai.com/blog
+- type: Support
+  url: https://discord.com/invite/trymirai
+- type: TermsOfService
+  url: https://trymirai.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://trymirai.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
