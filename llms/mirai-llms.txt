@@ -1,0 +1,22 @@
+# Mirai Docs
+
+## Docs
+
+- [About](https://docs.trymirai.com/index.md)
+- [Chat](https://docs.trymirai.com/quick-start/chat.md)
+- [Cloud](https://docs.trymirai.com/quick-start/chat-cloud.md)
+- [Speculative classification](https://docs.trymirai.com/quick-start/chat-speculation-classification.md)
+- [Speculative summarization](https://docs.trymirai.com/quick-start/chat-speculation-summarization.md)
+- [Structured output](https://docs.trymirai.com/quick-start/chat-structured-output.md)
+- [Classification](https://docs.trymirai.com/quick-start/classification.md)
+- [Text to Speech](https://docs.trymirai.com/quick-start/text-to-speech.md)
+
+## OpenAPI Specs
+
+- [openapi](https://docs.trymirai.com/api-reference/openapi.json)
+
+## Optional
+
+- [GitHub](https://github.com/trymirai)
+- [Community](https://discord.com/invite/trymirai)
+- [Blog](https://trymirai.com/blog)

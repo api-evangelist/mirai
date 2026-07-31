@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.trymirai.com/quick-start/chat
+# Mirai ships a single first-party client library, "uzu" — a high-performance
+# on-device inference engine — published across four language ecosystems.
+# All are MIT-licensed and first-party (trymirai). Verified on the registries
+# and in the docs quick-start install instructions on 2026-07-20.
+packages:
+  - language: python
+    registry: pypi
+    name: uzu
+    version: 0.5.12
+    url: https://pypi.org/project/uzu/
+    install: uv add uzu   # or: pip install uzu
+    license: MIT
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@trymirai/uzu"
+    version: 0.5.12
+    url: https://www.npmjs.com/package/@trymirai/uzu
+    install: npm install @trymirai/uzu   # or: pnpm add @trymirai/uzu
+    license: MIT
+    official: true
+  - language: swift
+    registry: swift-package-manager
+    name: uzu
+    url: https://github.com/trymirai/uzu
+    install: 'https://github.com/trymirai/uzu.git (Swift Package Manager)'
+    license: MIT
+    official: true
+  - language: rust
+    registry: github
+    name: uzu
+    url: https://github.com/trymirai/uzu
+    install: cargo add uzu --git https://github.com/trymirai/uzu
+    license: MIT
+    official: true
+    note: Distributed as a git dependency; not published to crates.io.
