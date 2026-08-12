@@ -69,6 +69,13 @@ apis:
   - type: SourceCode
     url: https://github.com/trymirai/uzu
 common:
+- type: IssueTracker
+  url: https://github.com/trymirai/uzu/issues
+- type: Releases
+  url: https://github.com/trymirai/uzu/releases
+- type: License
+  name: MIT
+  url: https://github.com/trymirai/uzu/blob/main/LICENSE
 - type: DomainSecurity
   url: security/mirai-domain-security.yml
 - type: Website
