@@ -11,6 +11,19 @@ description: >-
   Founded by the co-creators of Reface and Prisma and backed by a $10M seed
   round led by Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/mirai/refs/heads/main/apis.yml
+deliveryModel:
+  model: open-core
+  license: MIT
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
